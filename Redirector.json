@@ -1,0 +1,23 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2024-05-21T18:50:53.668Z",
+    "redirects": [
+        {
+            "description": "Twitter",
+            "exampleUrl": "https://x.com/whatever",
+            "exampleResult": "https://twitter.com/whatever?mx=1",
+            "error": null,
+            "includePattern": "https://x.com/*",
+            "excludePattern": "",
+            "patternDesc": "Fix Twitter",
+            "redirectUrl": "https://twitter.com/$1?mx=1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}
